@@ -1,4 +1,4 @@
-import FeeCalculation.BookLateFee;
+import FeeCalculation.*;
 
 public class Main {
     public static void main(String[] args) {
