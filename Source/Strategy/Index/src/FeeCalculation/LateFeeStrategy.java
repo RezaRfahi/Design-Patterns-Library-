@@ -1,3 +1,5 @@
+package FeeCalculation;
+
 public interface LateFeeStrategy {
     double calculateLateFee(int daysLate);
     double getMaxLateFee(); // New method to return the maximum possible late fee
