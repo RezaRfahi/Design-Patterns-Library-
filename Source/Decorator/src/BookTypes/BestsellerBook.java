@@ -2,7 +2,7 @@ package BookTypes;
 
 public class BestsellerBook extends BookDecorator{
 
-    BestsellerBook(Book book) {
+    public BestsellerBook(Book book) {
         super(book);
     }
 

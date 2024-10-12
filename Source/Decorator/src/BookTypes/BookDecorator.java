@@ -6,7 +6,7 @@ public abstract class BookDecorator implements Book {
 
     protected Book decoratedBook;
 
-    BookDecorator(Book book) {
+    public BookDecorator(Book book) {
         this.decoratedBook = book;
     }
 

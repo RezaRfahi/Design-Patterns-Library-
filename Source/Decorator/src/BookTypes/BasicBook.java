@@ -5,7 +5,7 @@ public class BasicBook implements Book{
     private String title;
     private double price;
 
-    BasicBook(String title, double price){
+    public BasicBook(String title, double price){
         this.title = title;
         this.price = price;
     }
